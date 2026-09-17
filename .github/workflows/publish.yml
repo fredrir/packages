@@ -16,7 +16,7 @@ jobs:
     permissions:
       contents: write
       id-token: write
-    uses: fredrir/infra/.github/workflows/packages-publish.yml@76dbc83616a77ce14a8307413286de1b17a914aa
+    uses: fredrir/infra/.github/workflows/packages-publish.yml@74e98429fb930c484b079be600debd8efc981af5
     secrets: inherit
     with:
       smoke-scope: ${{ github.event.schedule == '41 5 * * 1' && 'full' || 'quick' }}
