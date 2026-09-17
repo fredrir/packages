@@ -1,0 +1,21 @@
+name: Publish packages
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+  schedule:
+  - cron: '23 4 * * *'
+  - cron: '41 5 * * 1'
+permissions:
+  contents: read
+concurrency:
+  group: publish
+  cancel-in-progress: false
+jobs:
+  publish:
+    permissions:
+      contents: write
+      id-token: write
+    uses: fredrir/infra/.github/workflows/packages-publish.yml@62cefe77ff01e0df9fd59a33d21cdc0761accee8
+    with:
+      smoke-scope: ${{ github.event.schedule == '41 5 * * 1' && 'full' || 'quick' }}

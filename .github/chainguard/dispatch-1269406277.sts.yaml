@@ -1,0 +1,12 @@
+issuer: https://token.actions.githubusercontent.com
+subject_pattern: ^repo:fredrir(@114402558)?/nsql(@1269406277)?:environment:release$
+claim_pattern:
+  repository_id: ^1269406277$
+  repository_owner_id: ^114402558$
+  runner_environment: ^self-hosted$
+  ref: ^refs/tags/v[0-9A-Za-z.+-]+$
+  event_name: ^push$
+  environment: ^release$
+  job_workflow_ref: ^fredrir/infra/\.github/workflows/rust-release\.yml@[0-9a-f]{40}$
+permissions:
+  actions: write
