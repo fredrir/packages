@@ -7,6 +7,7 @@ claim_pattern:
   ref: ^refs/tags/v[0-9A-Za-z.+-]+$
   event_name: ^push$
   environment: ^release$
-  job_workflow_ref: ^fredrir/infra/\.github/workflows/rust-release\.yml@[0-9a-f]{40}$
+  job_workflow_ref: ^fredrir/infra/\.github/workflows/rust-release\.yml@(eb764b837d1fd10cb71fde1963500854aaef5d6c|b2c97f0c98c09099d19696089e55f1e95bd6ac1d)$
+  job_workflow_sha: ^(eb764b837d1fd10cb71fde1963500854aaef5d6c|b2c97f0c98c09099d19696089e55f1e95bd6ac1d)$
 permissions:
   actions: write
