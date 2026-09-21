@@ -15,7 +15,7 @@ jobs:
     permissions:
       contents: write
       id-token: write
-    uses: fredrir/infra/.github/workflows/packages-publish.yml@a57b0e15d5ca1c3180fba6a16cedbc7595e90610
+    uses: fredrir/infra/.github/workflows/packages-publish.yml@cbbf64f0b9a383894e8f4c329d64b996260433c0
     secrets: inherit
     with:
       smoke-scope: quick
