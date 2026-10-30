@@ -1,0 +1,48 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Acquire-By-Hash: yes
+Architectures: amd64 arm64
+Codename: stable
+Components: main
+Date: Fri, 30 Oct 2026 10:57:51 +0000
+Description: fredrir packages
+Label: fredrir
+Origin: fredrir
+Suite: stable
+MD5Sum:
+ 7a0377cba1da178c0321a67b23429da5              682 main/binary-amd64/Packages
+ 8215b41ca744e64606fc1bde5ae64a90              503 main/binary-amd64/Packages.gz
+ dc692d835417280f179ce4e93a53c7bb              682 main/binary-arm64/Packages
+ 104639a728fae06d940c23cea874686d              503 main/binary-arm64/Packages.gz
+SHA1:
+ 4d291b248ac87a281444f1bdb72aed1a3b3fa927              682 main/binary-amd64/Packages
+ 4eba0f3b4e9aca1e43f696c83fc377e2db114a6f              503 main/binary-amd64/Packages.gz
+ 9e84db5eccc9e377442fe093fe433454bc413c06              682 main/binary-arm64/Packages
+ f91a54b11881fd9c3b47c49f3231d5e707a54411              503 main/binary-arm64/Packages.gz
+SHA256:
+ 5842bc3a93fd65a57b62e953f55436e2a14e9d23ff3d101166d68c85f3fe4993              682 main/binary-amd64/Packages
+ acdf4b1d851e55d432f5c520c9c38a6295d6e04250229961bbad993252914266              503 main/binary-amd64/Packages.gz
+ 491dc9d5c649419763d20668c73f434526b5927f6ebae695371e040764f47b22              682 main/binary-arm64/Packages
+ 05d8d65704b404fe4a5eb43030b57fc5e63439994a0cffa5e508e80f457735a9              503 main/binary-arm64/Packages.gz
+SHA512:
+ 900e4244b5ac70241711c49ba1f12da2748acfe5289cc099672a4597c3ff97fc9285d9f10cd2fc129c9583049f5f697dffba1f2360d225451063caa27fa6fb51              682 main/binary-amd64/Packages
+ 4b9d48198d3eed45ec38a55dba67b4be403e28fdb8217c3cc45ec6fbc96d67bec020d9a933bf5417badc791c3355911a11ddbdef84e6c3f80098c21c846351ab              503 main/binary-amd64/Packages.gz
+ 16858008b62b8dae2cb166d2d7c1b40d2805c6be1a7a80736907d04de9e31dfbace30eb44c54b5a5cbf23c8c20f054dd7a7877aab5922c6f332d3c4caec14f29              682 main/binary-arm64/Packages
+ 0de9491cc4851426e4068ad0045a5b624cce6bb797a331d7e4ce4d441e53e05be99cc3b42825a07c25ad39ec19d103685fcbe4d3756fcc515de973f1f70b4b43              503 main/binary-arm64/Packages.gz
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEE7AcNEQ2jgPpbc1pMqmKM8lLma7sFAmrkeC8ACgkQqmKM8lLm
+a7v9GA/+NhVIz4MkMeMln/i7XV9Kh2KNDcBx9eE/8ssuOreTecV4ZwPds4eBqD5V
+S/gn/RNXf2S0SdZsSgz76H5vWFGUwz4+DNG3MZ9pTMn2DxDPNQP7+j5jlRBQIF4g
+BchP7Wotrq4CDoWhy9/Ja8s2RsOvS3EB8aDPkEPsuaVBDjqbEDJ4R4vbHeboPJrp
+bus9FlzS7r7hyLbr6vcY1Xy9ErD7XprDYvTm4dVbrWxEyQ1LR/buHatpxYcznyGh
+Vkh7S4M3WlzWX1D1gRwObNbqQiBWzCgnC5jcBCJCaU6XLs6bPhX9hoOMMZv32CHV
+Ia7fUrTtajJIusXnpnwKMQehTwkKVqjXiY1TpYUGTmWzsnTGky0cG/uRCptUK8QL
+U3qtC2YQjmiqjH9NBqB4HAMNI90qHTGRcd4hFmxyvORSUADIyP7wxL9us0WlEaWf
+rUAPgkAerJIhP757Mzlc+Q2Z4iViRY2bAJPaqsRvGO/hs2fMVcxJePjzb6MRd5vD
+otV9EJuX8Wr0S2+GU3YHLIZln0ZQt1gEiqbZnp3XixrQSbhl/pB9oNUMshPtggVz
+HYWw6rfcNV6l9hA1SMXTj46s5dNb/ixt9ULoonYN2d7Qo4SWoF/075i+sXIBegbo
+Dlb4OgjF0/P+yEf7HCx3cASU/ZfHMdt2jHfCNPQxy9sNyk90ojk=
+=4a1N
+-----END PGP SIGNATURE-----
