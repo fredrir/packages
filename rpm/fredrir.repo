@@ -1,0 +1,7 @@
+[fredrir]
+name=fredrir
+baseurl=https://pkgs.fredrir.com/rpm/$basearch
+enabled=1
+gpgcheck=1
+repo_gpgcheck=1
+gpgkey=https://pkgs.fredrir.com/keys/fredrir.asc
