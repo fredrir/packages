@@ -1,0 +1,29 @@
+Acquire-By-Hash: yes
+Architectures: amd64 arm64
+Codename: stable
+Components: main
+Date: Sat, 14 Nov 2026 11:39:29 +0000
+Description: fredrir packages
+Label: fredrir
+Origin: fredrir
+Suite: stable
+MD5Sum:
+ 9a5770d4aee8c5de764ff5146da295fd              682 main/binary-amd64/Packages
+ 1c6ae49e1b34f209eea2c379081bb0fa              502 main/binary-amd64/Packages.gz
+ a4a45200a48a541bf503cff79e7efcac              682 main/binary-arm64/Packages
+ aac539e87cc9527ad9d6f950ada48b20              502 main/binary-arm64/Packages.gz
+SHA1:
+ 39344fc4a490c63eb1c72a612cba5289ae28c415              682 main/binary-amd64/Packages
+ 411778c619b6c5cc9b2115f184847d907dbf1e8e              502 main/binary-amd64/Packages.gz
+ 54e6273599d66acd6bc4ad576ee33ff7e2b77358              682 main/binary-arm64/Packages
+ 667f6d3b7ef489c9ab99c84668d8d86211b1bd07              502 main/binary-arm64/Packages.gz
+SHA256:
+ 0365fecf5191e8af38bd6b0a89b63f067107d9e94d0580ce8895fcd8cf40b9db              682 main/binary-amd64/Packages
+ 4c00ea7ac90c467ef268de8fc44dbb727a77f7767c7f124cd589cbc7bfabdfd6              502 main/binary-amd64/Packages.gz
+ 4e05b197b4250f846ad079c8f3b39511f0b13f2f6dba4dcf81780f4ffdf2ee17              682 main/binary-arm64/Packages
+ 51b490ea8518f8ec0d40831e0e9315fde9b84b84d92196b380724951ed2a8d61              502 main/binary-arm64/Packages.gz
+SHA512:
+ 9137995b0f00ac3e7b32c8675a77b61395d39a67d23c72ab7ec7906e8c6802a4efce4e1c421c951ff896420cc9dc74bf58bc9e64358781b09722358295924ab2              682 main/binary-amd64/Packages
+ 2ecabdfe18394d12ffbb51ef164cd749e10523215cdc5c9611af5715ddaaa1ad2e5453b55c6141767784c0115a810e772c2c94851365566dd2a3d4eff13cb9c5              502 main/binary-amd64/Packages.gz
+ 15e2a956c1118306f799d343986eb3502aae9c9afddbf00a005567678a4a4e165ccaf558da9a5165b1ce4df5fcb995999188a2da22a06d6a1d2f600b35b4cb3f              682 main/binary-arm64/Packages
+ c37de73cc74fda5b8d5c6b5238b889e82334d2efe27d898c0da641233d390b8e9b6d1b900e1ab3038b65732403816b90b54aa4c2635d0e605f4bcc3810e90c53              502 main/binary-arm64/Packages.gz

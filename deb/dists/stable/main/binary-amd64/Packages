@@ -1,0 +1,17 @@
+Package: nsql
+Architecture: amd64
+Version: 0.1.14-1
+Priority: optional
+Section: database
+Maintainer: fredrir <fhansteen@gmail.com>
+Installed-Size: 16629
+Recommends: neovim
+Filename: pool/main/nsql/nsql_0.1.14-1_amd64.deb
+Size: 6982008
+MD5sum: 31948a53194a100907e9243c3b6c890c
+SHA1: f67a51c7f0c86a35099e107a0eab555e1896290f
+SHA256: f70c57258e05f083336249e4162477ba0ce1f0b651b4fe67dc7da84c61fd8e5c
+SHA512: 2c20060b9217b2e906ea275c81d8de0870a63856b2a6392a0a45c8228ddb9b71c27b1df7512b4afef5ab199c81c41dc7bb134326144679d4863352a03a774c1e
+Homepage: https://github.com/fredrir/nsql
+Description: Run SQL from your terminal, composed in your real neovim — without taking over the screen.
+

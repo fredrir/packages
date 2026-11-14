@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<title>pkgs.fredrir.com</title>
+<h1>pkgs.fredrir.com</h1>
+<table><tr><th>Tool</th><th>Version</th><th>Source</th></tr>
+<tr><td>nsql</td><td>0.1.14</td><td><a href="https://github.com/fredrir/nsql">fredrir/nsql</a></td></tr>
+</table>
+<h2>Debian and Ubuntu</h2>
+<pre>curl -fsSL https://pkgs.fredrir.com/keys/fredrir.asc | sudo tee /etc/apt/keyrings/fredrir.asc >/dev/null
+echo "deb [signed-by=/etc/apt/keyrings/fredrir.asc] https://pkgs.fredrir.com/deb stable main" | sudo tee /etc/apt/sources.list.d/fredrir.list
+sudo apt update && sudo apt install TOOL</pre>
+<h2>Fedora, RHEL and openSUSE</h2>
+<pre>sudo curl -fsSLo /etc/yum.repos.d/fredrir.repo https://pkgs.fredrir.com/rpm/fredrir.repo && sudo dnf install TOOL
+sudo zypper addrepo https://pkgs.fredrir.com/rpm/fredrir.repo && sudo zypper install TOOL</pre>
+<h2>Alpine</h2>
+<pre>wget -qO /etc/apk/keys/fredrir.rsa.pub https://pkgs.fredrir.com/keys/fredrir.rsa.pub
+echo https://pkgs.fredrir.com/apk >> /etc/apk/repositories && apk add TOOL</pre>
+<h2>Homebrew, Arch and Nix</h2>
+<pre>brew install fredrir/tap/TOOL
+yay -S TOOL   # or TOOL-bin
+nix run github:fredrir/nur-packages#TOOL</pre>
+<h2>Any Linux or macOS</h2>
+<pre>curl -fsSL https://pkgs.fredrir.com/install.sh | sh -s -- TOOL</pre>
+</html>
